@@ -4,9 +4,10 @@
   "package": "net.zappfire.nitrogencore.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+
   ],
   "client": [
-    "ExampleMixin"
+    "WorldPresetMixin"
   ],
   "injectors": {
     "defaultRequire": 1
