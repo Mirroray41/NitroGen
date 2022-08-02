@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "nitrogen-core",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "NitroGen Core",
+  "description": "This is a utility mod that allows you to choose what biomes you want in your world.",
   "authors": [
-    "Me!"
+    "ZAppFireCZ"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ZAppFireCZ/NitroGen"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/nitrogen-core/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.zappfire.nitrogencore.NitroGenCore"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "nitrogen-core.mixins.json"
   ],
 
   "depends": {
